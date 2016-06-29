@@ -8,42 +8,89 @@
   font-family: sans-serif;
 }
 
+html body{
+  margin: 0px;
+}
+
 body {
   background-color: lightgrey;
 }
 
 .course-tile {
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  float: left;
+  margin: 25px;
 }
 
 .tile-header {
   height: 50px;
-  background-color: steelblue;
   border-radius: 5px 5px 0px 0px;
   margin-bottom: 0px;
 }
 
+#header1{
+  background-color: mediumspringgreen;
+}
+#header2{
+  background-color: tomato;
+}
+#header3{
+  background-color: steelblue;
+}
+
+.tile-header::before{
+  content: url("../img/book.png");
+  top: 12px;
+  left: 20px;
+  position: absolute;
+}
+
+.dot-list {
+  padding-left: 75px;
+  padding-top: 17px;
+  position: relative;
+  float: left;
+}
 .course-time {
   float: right;
   margin-right: 20px;
-  color: white;
+  color: black;
+  position: relative;
+  font-size: 18px;
+  margin-top: 14.5px;
+  margin-bottom: 14.5px;
 }
 
 .tile-body {
   background-color: white;
-  height: 350px;
+  height: 250px;
   border-radius: 0px 0px 5px 5px;
   padding: 20px;
 }
 
+.course {
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .course-title{
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   color: lightblack;
   margin: 0px;
 }
 
+.course-detail {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.left-footer {
+  float: left;
+}
 .button {
   display: inline-block;
   border-style: solid;
@@ -51,8 +98,28 @@ body {
   border-color: lightgrey;
   border-radius: 30px;
   padding: 10px;
+  color: grey;
+  font-weight: bold;
+}
+
+.right-footer {
+  float: right;
+}
+
+.play {
+  opacity: 0.3;
+}
+
+.star {
+  opacity: 0.25;
 }
 
 #topic1 {
+  color: mediumspringgreen;
+}
+#topic2 {
+  color: tomato;
+}
+#topic3 {
   color: steelblue;
 }
