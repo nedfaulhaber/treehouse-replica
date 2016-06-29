@@ -15,7 +15,9 @@ html body{
 body {
   background-color: #edeff0;
 }
-.cf{
+.cf::after {
+  content: "";
+  display: block;
   clear: both;
 }
 
@@ -83,7 +85,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 75%;
+  /*overflow: auto;*/
 }
 
 .course-tile {
