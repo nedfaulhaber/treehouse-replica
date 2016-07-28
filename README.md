@@ -2,7 +2,7 @@
 
 #### CSS Exercise for Epicodus, 6/29/16
 
-#### By _**Ned Faulhaber**_
+#### By _**Ned Faulhaber and Amanda Daly**_
 
 ## Description
 
